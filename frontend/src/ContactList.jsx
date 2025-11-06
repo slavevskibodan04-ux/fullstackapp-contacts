@@ -15,7 +15,7 @@ alert(error);
 }
 };
 
-return ( <div className="min-h-screen bg-gray-100 py-10 px-4">
+return ( <div className="min-h-screen  py-10 px-4">
 <h2 className="text-center text-5xl font-bold py-6 rounded-b-3xl bg-gradient-to-r from-blue-500 to-blue-700 text-white w-full sm:w-2/3 mx-auto shadow-lg">
 Contacts </h2>
 

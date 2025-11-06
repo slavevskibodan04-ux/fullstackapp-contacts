@@ -40,10 +40,12 @@ function App() {
 
   return (
 
-    <div className="py-2 ">
+    <div className="py-2  bg-gray-100">
 
       <ContactList contacts={contacts} updateContact={openEditModal} updateCallback={onUpdate} />
-      <button onClick={openCreateModal}>Create New Contact</button>
+<div className="text-center">
+        <button onClick={openCreateModal} className="bg-red-500 px-5 rounded-2xl mb-5 py-2 text-white ">Create New Contact</button>
+  </div>
       {isModalOpen && <div className="modal">
         <div className="modal-content">
           <h1 className="text-red-400 bg-red-400">nesto</h1>
